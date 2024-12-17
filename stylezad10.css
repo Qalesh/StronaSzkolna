@@ -1,0 +1,126 @@
+body{
+	background: white;
+}
+div{
+	
+}
+
+.rev1{
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+}
+.rev2{
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	background-color: green;
+	right: 50px;
+	top: 50px;
+	z-index: 3;
+}
+.rev3{
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	background-color: blue;
+	right: 100px;
+	top: 100px;
+	z-index: 3;
+}
+.rev4{
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	background-color: red;
+	left: 1000px;
+	z-index: 2;
+}
+.rev5{
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	background-color: green;
+	left: 850px;
+	top: 50px;
+	z-index: 1;
+}
+.rev6{
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	background-color: blue;
+	left: 700px;
+	top: 100px;
+	z-index: 3;
+}
+.rev7{
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	background-color: blue;
+	right: 250px;
+	top: 500px;
+	height: 300px;
+	width: 300px;
+	z-index: 1;
+}
+.rev8{
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	background-color: grey;
+	right: 525px;
+	top: 525px;
+	z-index: 3;
+}
+.rev9{
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	background-color: red;
+	right: 475px;
+	top: 525px;
+	z-index: 3;
+}
+.rev10{
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	background-color: yellow;
+	right: 200px;
+	top: 460px;
+	z-index: 1;
+}
+.rev11{
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	background-color: pink;
+	right: 350px;
+	top: 525px;
+	z-index: 3;
+
+}
+.rev12{
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	background-color: green;
+	right: 340px;
+	top: 525px;
+	z-index: 3;
+}

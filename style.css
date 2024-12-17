@@ -1,0 +1,61 @@
+body{
+	background: white;
+}
+
+div.dv1{
+	float: left;
+	background: red;
+	width: 500px;
+	height: 150px;
+	margin: auto;
+}
+div.dv2{
+	float: left;
+	background: blue;
+	width: 500px;
+	height: 150px;
+	margin: auto;
+	
+}
+div.dv3{
+	float: left;
+	background: orange;
+	width: 300px;
+	height: 690px;
+	
+}
+div.dv4{
+	float: left;
+	background: yellow;
+	width: 700px;
+	height: 320px;
+	
+}
+div.dv5{
+	float: left;
+	background: grey;
+	width: 480px;
+	height: 370px;
+
+	
+}
+div.dv6{
+	float: left;
+	background: black;
+	width: 220px;
+	height: 370px;
+	
+}
+div.dv7{
+	float: left;
+	background: pink;
+	width: 1000px;
+	height: 100px;
+	
+}
+div.kontener{
+	width: 1000px;
+	height: 940px;
+	background: magenta;
+	margin: auto;
+}

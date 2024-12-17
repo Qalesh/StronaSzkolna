@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8"/>
+	</head>
+<table border="0" cellspacing="2">
+	<tr>
+		<td>
+		<form>
+			<fieldset name="logowanie">
+			<legend> Dane do logowania </legend>
+				<table>
+				<tr>
+					<td>Imię:</td><td><input type="text" name="login"></td>
+				</tr>
+				<tr>
+					<td>Nazwisko:</td><td><input type="text" name="nazwisko"></td>
+				<br/>
+				</tr>
+				<tr>
+				<td valign="top">Płeć:</td><td><input type="radio" name="gender" > Mężczyzna
+				<br/><input type="radio" name="gender" > Kobieta</td>
+				</table>
+			</fieldset>
+		
+		</td><td>
+		
+			<fieldset name="adres">
+			<legend>Adres</legend>
+				<table>
+				<tr>
+					<td>Ulica:</td><td><input type="text" name="ulica"></td>
+				</tr>
+				<tr>
+					<td>Kod:</td><td><input type="text" name="kod"></td>
+				<tr>
+					<td>Miasto:</td><td><input type="text" name="miasto"></td>
+				</tr>
+				<tr>
+				<td>Województwo:</td>
+				<td>
+				<select name="wojewodztwo" id="wojewodztwo">
+				<optgroup>
+					<option value="blank"></option>
+					<option value="wielkopolskie">Wielkopolskie</option>
+					<option value="mazowieckie">Mazowieckie</option>
+					<option value="pomorskie">Pomorskie</option>
+					<option value="war-mar">Warmińsko-Mazurskie</option>
+				</optgroup></td>
+				<tr>
+				<td>
+				Kraj:
+				<select name="kraj" id="kraj">
+				<optgroup>
+					<option value="Polska">Polska</option>
+					<option value="Niemcy">Niemcy</option>
+					<option value="Argentyna">Argentyna</option>
+					<option value="Somalia">Somalia</option>
+				</optgroup></td>
+				</tr>
+				</table>
+			</fieldset>
+		
+		</td></tr>
+	<tr>
+		<td>
+		
+			<fieldset name="informacje_kontaktowe">
+			<legend>Informacje Kontaktowe</legend>
+				<table>
+				<tr>
+					<td>e-mail:</td><td><input type="email" name="email"></td>
+				</tr>
+				<tr>
+					<td>Telefon:</td><td><input type="tel" name="telefon"></td>
+				</tr>
+				</table>
+			</fieldset>
+			</td><td>
+		
+			<fieldset name="zainteresowania">
+			<legend>Zainteresowania</legend>
+				<table>
+				<tr>
+					<td width="100px"><input type="checkbox"> Sport</td><td><input type="checkbox"> Muzyka</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"> Film</td><td><input type="checkbox"> Książka</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"> Inne</td>
+				</tr>
+				</table>
+			</fieldset>
+		
+		</td>
+	<tr>
+		<td>
+			
+			<fieldset name="zdjecie">
+			<legend>Zdjęcie</legend>
+				Wybierz plik:
+				<br/>
+				<input type="file"><br/>
+			</fieldset>
+			
+		</td><td>
+			
+				<table>
+				<tr>
+				<td width="85%"><input type="submit" value="Wyślij"></td><td><input type="reset" value="Wyczyść"></td>
+				</tr>
+				</table>
+		</form>
+</table>
+</body>
+</html>
