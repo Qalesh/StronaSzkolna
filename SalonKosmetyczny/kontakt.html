@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt | Salon Kosmetyczny Bella</title>
+    <meta name="author" content="Miłosz Sroczyński"/>
+    <meta name="description" content="Kontakt Salon Bella"/>
+    <link rel="icon" type="image/png" href="images/logo.png" size="48x48"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body data-kontrast="normal">
+    <header>
+        <div class="dane-kontaktowe">
+            <p>📞 22 987 65 43</p>
+            <p>📌 Warszawa, ul. Urodzajna 8</p>
+
+            <p>📧 kontakt@bellakosmetyk.pl</p>
+        </div>
+        <div class="naglowek-glowny">
+            <div class="logo-naglowek">
+                <img src="./images/logo.png" alt="Logo Salonu Kosmetycznego Bella">
+                <h1>Salon Kosmetyczny Bella</h1>
+            </div>
+            
+            <div class="pasek-dostepnosci">
+                <button class="przycisk-dostepnosci" id="powiekszTekst" title="Powiększ tekst">A+</button>
+                <button class="przycisk-dostepnosci" id="pomniejszTekst" title="Pomniejsz tekst">A-</button>
+                <button class="przycisk-dostepnosci" id="normalnyKontrast" title="Normalny kontrast">◐</button>
+                <button class="przycisk-dostepnosci" id="wysokiKontrast" title="Wysoki kontrast">◑</button>
+            </div>
+            
+            <div class="menu-glowne">
+
+                <a href="salonmod.html">Strona główna</a>
+                <a href="zabiegi.html">Zabiegi</a>
+                <a href="kontakt.html" class="aktywny">Kontakt</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Skontaktuj się z nami</h1>
+
+        <div class="kontener-kontaktowy">
+            <section class="formularz-kontaktowy">
+                <h2>Wyślij wiadomość</h2>
+                <form action="#" method="post">
+
+                    <div class="grupa-formularza">
+                        <label for="imie">Imię i nazwisko *</label>
+                        <input type="text" id="imie" name="imie" required>
+                    </div>
+                    
+                    <div class="grupa-formularza">
+                        <label for="email">Adres e-mail *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="grupa-formularza">
+                        <label for="telefon">Numer telefonu</label>
+                        <input type="tel" id="telefon" name="telefon">
+                    </div>
+                    
+                    <div class="grupa-formularza">
+                        <label for="temat">Temat wiadomości *</label>
+                        <select id="temat" name="temat" required>
+                            <option value="">Wybierz temat</option>
+                            <option value="zapytanie">Zapytanie o ofertę</option>
+                            <option value="rezerwacja">Rezerwacja terminu</option>
+                            <option value="wspolpraca">Współpraca</option>
+                            <option value="inne">Inna sprawa</option>
+                        </select>
+                    </div>
+                    
+                    <div class="grupa-formularza">
+                        <label for="wiadomosc">Treść wiadomości *</label>
+                        <textarea id="wiadomosc" name="wiadomosc" required></textarea>
+                    </div>
+                    
+                    <div class="grupa-formularza">
+                        <input type="checkbox" id="zgoda" name="zgoda" required>
+                        <label for="zgoda" style="display: inline;">Wyrażam zgodę na przetwarzanie moich danych osobowych...</label>
+                    </div>
+                    
+                    <button type="submit">Wyślij wiadomość</button>
+                </form>
+            </section>
+
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.650090509611!2d21.01221531579703!3d52.22990697976119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f1f%3A0x72a7b6a7a1a4b7c1!2sUrodzajna%208%2C%2000-001%20Warszawa!5e0!3m2!1spl!2spl!4v1620000000000!5m2!1spl!2spl" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+
+        <section class="informacje-kontaktowe">
+            <h2>Dane kontaktowe</h2>
+            
+            <div class="punkt-kontaktowy">
+                <span>📌</span>
+                <div>
+                    <h3>Adres</h3>
+                    <p>ul. Urodzajna 8<br>00-001 Warszawa</p>
+                    <p style="margin-top: 5px; font-size: 0.9em;">(wejście od podwórza, I piętro)</p>
+                </div>
+            </div>
+            
+            <div class="punkt-kontaktowy">
+                <span>📞</span>
+                <div>
+                    <h3>Telefon</h3>
+                    <p>22 987 65 43<br>+48 600 123 456</p>
+                    <p style="margin-top: 5px; font-size: 0.9em;">(telefon czynny w godzinach otwarcia)</p>
+                </div>
+            </div>
+            
+            <div class="punkt-kontaktowy">
+                <span>📧</span>
+                <div>
+                    <h3>E-mail</h3>
+                    <p>kontakt@bellakosmetyk.pl<br>rezerwacja@bellakosmetyk.pl</p>
+                </div>
+            </div>
+            
+            <div class="punkt-kontaktowy">
+                <span>🕒</span>
+                <div>
+                    <h3>Godziny otwarcia</h3>
+                    <p>Pon-Pt: 9:00-20:00<br>Sob: 10:00-16:00<br>Niedz: nieczynne</p>
+                </div>
+            </div>
+            
+
+            <div class="punkt-kontaktowy">
+                <span>🚗</span>
+                <div>
+                    <h3>Parking</h3>
+                    <p>Bezpłatny parking strzeżony<br>200m od salonu (ul. Zielona 10)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="wspolpraca" class="informacje-kontaktowe" style="margin-top: 40px;">
+            <h2>Współpraca</h2>
+            <p>Zapraszamy do współpracy inne salony kosmetyczne, kliniki medycyny estetycznej oraz firmy zainteresowane voucherami dla pracowników.</p>
+            <p style="margin-top: 15px;">Oferujemy specjalne warunki współpracy oraz pakiety zabiegów dostosowane do potrzeb Twojej firmy.</p>
+            <button style="margin-top: 20px;">Zapytaj o współpracę</button>
+        </section>
+    </main>
+ 
+
+
+    <footer>
+        <p>© 2025 Salon Kosmetyczny Bella. Wszelkie prawa zastrzeżone.</p>
+        <p style="margin-top: 10px; font-size: 0.9em;">
+            <a href="#" style="color: white; text-decoration: underline;">Polityka prywatności</a> | 
+            <a href="#" style="color: white; text-decoration: underline;">Regulamin</a>
+        </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
